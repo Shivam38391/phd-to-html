@@ -118,29 +118,29 @@ h2 {
 
 /* *********box -color for blue*********** */
 .box-footer-1 {
-    background-color: #cc003d;
+    background-color: #000000;
     min-height: 140px;
 }
 
 .box-footer-2 {
-    background-color: #00cc6d;
+    background-color: #000000;
     min-height: 140px;
 }
 
 .box-footer-3 {
-    background-color: #ccb800;
+    background-color: #000000;
     min-height: 140px;
 }
 
 .box-footer-4 {
-    background-color: #4700cc;
+    background-color: #000000;
     min-height: 140px;
 }
 /* *********box -color for blue*********** */
 
 
 .footer-bg {
-    background-color: black;
+    background-color: #000000;
 }
 
 
@@ -255,3 +255,8 @@ h2 {
 
   }
   
+  .footer-fonts {
+    color: aliceblue;
+    text-transform: capitalize;
+    text-decoration: none;
+  }
