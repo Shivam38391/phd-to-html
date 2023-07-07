@@ -159,7 +159,7 @@ h2 {
     background-image: url("/images/paralax image.png");
   
     /* Set a specific height */
-    min-height: 500px; 
+    min-height: 300px; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -315,3 +315,31 @@ div.scroll-container {
 /* .me-5 {
     margin-right: 10rem !important;
 } */
+
+.parent-class-for-anime{
+    position: relative;
+}
+
+.intro-title{
+ color: #dba242;
+}
+
+
+.intro-title:before {
+    color: #dba242;
+    content: '';
+    position: absolute;
+
+    left: 35%;
+    top: 90%;
+    width: 0%;
+    height: 3px;
+    background: #dba242;
+    transition: all 0.3s ease;
+}
+
+.intro-title:hover:before {
+    width: 25%;
+    margin-top: 24px;
+}
+
