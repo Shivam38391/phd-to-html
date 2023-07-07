@@ -23,7 +23,7 @@ h2 {
 
 
 .bg-image{
-    background-color: #00b4cc;
+    background-color: #534d4d;
 
 }
 
@@ -154,11 +154,33 @@ h2 {
 
 
 
+.parallax {
+    /* The image used */
+    background-image: url("/images/paralax image.png");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
+/* copy from w3 school image gallery with horizontal scroll */
 
-
-
-
+div.scroll-container {
+    background-color: #ffffff;
+    overflow: auto;
+    
+    white-space: nowrap;
+    padding: 5px;
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+  }
 
 
 
@@ -260,3 +282,36 @@ h2 {
     text-transform: capitalize;
     text-decoration: none;
   }
+
+
+
+
+  .intro-box-1{
+    background-color: #cc005b;
+    height: max-content;
+    width: fit-content;
+  }
+
+
+  .intro-box-2{
+    background-color: #009ccc;
+    height: fit-content;
+    width: fit-content;
+  }
+
+
+  .intro-box-3{
+    background-color: #cca700;
+    height: fit-content;
+    width: fit-content;
+
+  }
+
+
+  /* .ms-5 {
+    margin-left: 10rem !important;
+} */
+
+/* .me-5 {
+    margin-right: 10rem !important;
+} */
