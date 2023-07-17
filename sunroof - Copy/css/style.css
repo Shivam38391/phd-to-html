@@ -23,7 +23,7 @@ h2 {
 
 
 .bg-image{
-    background-color: #534d4d;
+    background-color: #000000;
 
 }
 
@@ -159,7 +159,7 @@ h2 {
     background-image: url("/images/paralax image.png");
   
     /* Set a specific height */
-    min-height: 300px; 
+    min-height: 500px; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -354,7 +354,7 @@ div.scroll-container {
     background-image: url("/images/paralax photo.png");
   
     /* Set a specific height */
-    min-height: 300px; 
+    min-height: 500px; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -533,3 +533,27 @@ div.scroll-container {
     @media only screen and (max-width:990px){
 .box { margin: 0 0 30px; }
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$owl crousal $$$$$$$$$$$$$ */
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$owl crousal $$$$$$$$$$$$$ */
