@@ -1,13 +1,13 @@
 /* how attach font file in css */
-@font-face {
+/* @font-face {
     font-family: BebasNeue-Regular;
     src: url(../fonts/BebasNeue-Regular.ttf);
-}
+} */
 /* how attach font file in css */
 
 
-* {
-    font-family: 'Oswald', sans-serif;
+body {
+    font-family: 'OpenSans', sans-serif;
     margin: 0;
     box-sizing: border-box;
 }
@@ -75,7 +75,7 @@ h2 {
 /* ###################box colorfor skyblue slider################### */
 .box-1 {
     background-color: #00b4cc;
-    min-height: 280px;
+    min-height: 500px;
 }
 .box-2 {
     background-color: #00b4cc;
@@ -87,7 +87,7 @@ h2 {
 /* *********box -color for red*********** */
 .box-1-red {
     background-color: #cc005b;
-    min-height: 280px;
+    min-height: 600px;
 }
 
 .box-2-red {
@@ -159,7 +159,7 @@ h2 {
     background-image: url("/images/paralax image.png");
   
     /* Set a specific height */
-    min-height: 300px; 
+    min-height: 500px; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -222,60 +222,59 @@ div.scroll-container {
 }
 
 .main-header-tagline {
-    font-size: 16px;
+    font-size: 32px;
     font-family: "OpenSans";
     color: rgb(255, 255, 255);
     line-height: 1.333;
-    text-align: left;
-    /* -moz-transform: matrix( 0.90301305562428,0,0,0.90301305562428,0,0);
-    -webkit-transform: matrix( 0.90301305562428,0,0,0.90301305562428,0,0);
-    -ms-transform: matrix( 0.90301305562428,0,0,0.90301305562428,0,0); */
-    /* position: absolute; */
-    right: unset;
-    top: 100px;
-    letter-spacing: 4px;
-    /* z-index: 159; */
-    padding-top: 11%;
-    padding-right: 40%;
-  }
-  
-
-
-  .DISCUSS_YOUR_PROJECT_OFF {
-    font-size: 14px;
-    font-family: "Montserrat";
-    color: gold;
-    font-weight: bold;
-    text-align: center;
-    /* position: absolute; */
-    /* right: 160.937px; */
-    right: unset;
-    border-color: gold;
-    top: 261.002px;
-    border-radius: 20px;
-    padding: 10px 40px;
-    /* z-index: 153; */
-    background-color: inherit;
-    margin-top: 2%;
-  }
-  
-
-  #tagline {
-    font-size: 20px;
-    font-family: "OpenSans";
-    color: rgb(255, 255, 255);
-    text-align: center;
+    /* text-align: left; */
     /* -moz-transform: matrix( 0.90301305562428,0,0,0.90301305562428,0,0);
     -webkit-transform: matrix( 0.90301305562428,0,0,0.90301305562428,0,0);
     -ms-transform: matrix( 0.90301305562428,0,0,0.90301305562428,0,0); */
     /* position: absolute; */
     /* right: unset; */
     /* top: 100px; */
+    /* letter-spacing: 4px; */
     /* z-index: 159; */
+    /* padding-top: 11%; */
+    /* padding-right: 40%; */
+    font-weight: lighter;
+  }
+  
+
+
+  .DISCUSS_YOUR_PROJECT_OFF {
+    font-size: 15px;
+    font-family: "Montserrat";
+    color: #f7b648;
+    font-weight: bold;
+    text-align: center;
+    /* position: absolute; */
+    /* right: 160.937px; */
+    right: unset;
+    border-color: #f7b648;
+    top: 261.002px;
+    border-radius: 28px;
+    padding: 15px 30px;
+    /* z-index: 153; */
+    background-color: inherit;
+    margin-top: 2%;
+  }
+  
+
+  .tagline {
+    font-size: 24px;
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 2.21;
     margin-top: 1%;
     /* padding-right: 10%; */
 
   }
+
+
+  
+
   
   .footer-fonts {
     color: aliceblue;
@@ -354,7 +353,7 @@ div.scroll-container {
     background-image: url("/images/paralax photo.png");
   
     /* Set a specific height */
-    min-height: 300px; 
+    min-height: 500px; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -533,3 +532,27 @@ div.scroll-container {
     @media only screen and (max-width:990px){
 .box { margin: 0 0 30px; }
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$owl crousal $$$$$$$$$$$$$ */
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$owl crousal $$$$$$$$$$$$$ */
