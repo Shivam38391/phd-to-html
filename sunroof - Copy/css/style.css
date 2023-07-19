@@ -17,6 +17,7 @@ body {
     display: block;
     width: 100%;
     height: auto;
+    /* margin-top: 125px; */
 }
 
 
@@ -31,19 +32,31 @@ h2 {
 
 
 .bg-image{
-    background-color: #00b4cc;
+    background-color: transparent;
 
 }
 
-/* .nav-style{
-    box-shadow: 30px 10px 30px 0 rgba(46, 45, 45, 0.459);
-} */
+/* when scroll bar scrools nave changes its color */
+.bg-image.active  {
+    background-color: rgba(13, 13, 13, 0.848);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+
+}
+
+
+.bg-image.active .navbar-nav li a  {
+    color: rgb(233, 229, 229);
+}
+/* when scroll bar scrools nave changes its color */
+
+
 
 .navbar-nav li a {
     text-transform: uppercase;
     color: white;
     letter-spacing: 1.5px;
     position: relative;
+    transition: all 0.3s ease-in-out;
 }
 
 
@@ -77,6 +90,7 @@ h2 {
 
 
 
+
 /* ============================================== */
 
 
@@ -84,11 +98,12 @@ h2 {
 .box-1 {
     background-color: #00b4cc;
     min-height: 500px;
+    padding-top: 125px;
 }
-.box-2 {
+/* .box-2 {
     background-color: #00b4cc;
     min-height: 280px;
-}
+} */
 /* ###################box colorfor skyblue slider################### */
 
 
@@ -96,12 +111,14 @@ h2 {
 .box-1-red {
     background-color: #cc005b;
     min-height: 500px;
+    padding-top: 130px;
+
 }
 
-.box-2-red {
+/* .box-2-red {
     background-color: #cc005b;
     min-height: 500px;
-}
+} */
 /* *********box -color for red*********** */
 
 
@@ -111,6 +128,8 @@ h2 {
 .box-1-blue {
     background-color: #0073cc;
     min-height: 500px;
+    padding-top: 130px;
+
 }
 
 /* .box-2-blue {

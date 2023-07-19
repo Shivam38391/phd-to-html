@@ -24,6 +24,8 @@ $(document).ready(function() {
         autoplay:true,
         autoplayTimeout:1500,
         autoplayHoverPause:true
+
+
    
     });
 
@@ -60,7 +62,25 @@ $(document).ready(function() {
 
 
       });
+
+
      
+
    
   });
 
+
+  const nav = document.querySelector(".bg-image")
+
+
+  window.addEventListener('scroll' , fixNav)
+
+
+  function fixNav(){
+    if (window.scrollY > nav.offsetHeight ){
+        nav.classList.add("active")
+    }else {
+        nav.classList.remove('active')
+    }
+
+  }
