@@ -110,7 +110,7 @@ h2 {
 /* *********box -color for red*********** */
 .box-1-red {
     background-color: #cc005b;
-    min-height: 500px;
+    min-height: 698px;
     padding-top: 130px;
 
 }
@@ -127,7 +127,7 @@ h2 {
 /* *********box -color for blue*********** */
 .box-1-blue {
     background-color: #0073cc;
-    min-height: 500px;
+    min-height: 698px;
     padding-top: 130px;
 
 }
@@ -144,25 +144,7 @@ h2 {
 
 
 /* *********box -color for blue*********** */
-.box-footer-1 {
-    background-color: #000000;
-    min-height: 140px;
-}
 
-.box-footer-2 {
-    background-color: #000000;
-    min-height: 140px;
-}
-
-.box-footer-3 {
-    background-color: #000000;
-    min-height: 140px;
-}
-
-.box-footer-4 {
-    background-color: #000000;
-    min-height: 140px;
-}
 /* *********box -color for blue*********** */
 
 
@@ -183,7 +165,7 @@ h2 {
 
 .parallax {
     /* The image used */
-    background-image: url("/images/paralax image.png");
+    background-image: url("/sunroof - Copy/images/paralax image.png");
   
     /* Set a specific height */
     min-height: 500px; 
@@ -360,7 +342,7 @@ div.scroll-container {
 
 .parallax-testi {
     /* The image used */
-    background-image: url("/images/paralax photo.png");
+    background-image: url("/sunroof - Copy/images/paralax photo.png");
   
     /* Set a specific height */
     min-height: 500px; 
